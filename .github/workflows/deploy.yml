@@ -4,7 +4,7 @@ on:
   schedule:
     # 使用cron表达式定义任务运行的时间
     # github使用utc时间
-    - cron: "19 8 * * mon"  #每星期一8点19分启动一次
+    - cron: "19 3 * * mon"  #每星期一3点19分启动一次
   workflow_dispatch:
 
 jobs:
